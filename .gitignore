@@ -1,0 +1,32 @@
+# ── Environment / Secrets ────────────────────────────
+.env
+
+# ── Python ───────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+*.whl
+
+# ── Node / Angular ──────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/tmp/
+
+# ── IDE / Editor ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS junk ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+backend/tts_cache/*.wav
